@@ -1,0 +1,60 @@
+<div class="container-fluid proj">
+  <div class="sidenav flex-column">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link"
+         [class.active]="viewmode=='housing'"
+         (click)="viewmode='housing'">
+        Housing 
+        </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"
+         [class.active]="viewmode=='inst'"
+         (click)="viewmode='inst'">
+        Institutional
+        </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"
+         [class.active]="viewmode=='comm'"
+         (click)="viewmode='comm'">
+        Commercial
+        </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"
+         [class.active]="viewmode=='land'"
+         (click)="viewmode='land'">
+        Landscape
+        </a>
+    </li>
+  </ul>
+</div>
+<div class="Contents">
+  <div [ngSwitch]='viewmode'>
+    <div *ngSwitchCase="'housing'">
+      <h6 class="h">Housing Projects</h6>
+      <pre>
+      {{ txt }}
+      </pre>
+     
+    </div>
+    <div *ngSwitchCase="'inst'">
+      <h6>Institutional Projects</h6>
+    </div>
+    <div *ngSwitchCase="'comm'">
+      <h6>Commercial Projects</h6>
+    </div>
+    <div *ngSwitchCase="'land'">
+      <h6>Landscape Projects</h6>
+    </div>
+    <div *ngSwitchDefault>
+      Default Contents
+    </div>
+  </div>
+</div>
+
+
+
+</div>

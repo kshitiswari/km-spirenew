@@ -1,0 +1,18 @@
+.social{
+    font-size: 1.8em;
+    height:auto;
+    /*border: 1px solid #333;*/
+    padding:0 5px 0 0;
+}
+.social i{
+    margin:5px 5px 0 0;
+}
+
+@media only screen and (max-width:730px){
+    .social{
+        display: none;
+    /*    width:100%;
+    font-size:1em;
+    padding:2px 5px;*/
+    }
+}

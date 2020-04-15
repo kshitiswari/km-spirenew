@@ -1,0 +1,31 @@
+div.col.gen{
+    padding: 30px;
+}
+div.col.img{
+    float: left;
+    padding:30px;
+    column-count: 2;
+    align-content: center;
+}
+
+.img-thumbnail{
+    margin:10px;
+}
+
+@media only screen and (max-width:1000px){
+    div.col.img{
+        column-count: 1;
+        padding:30px;
+    }
+    .img-thumbnail{
+        margin:15px;
+    }
+    .row{
+        column-count: 2;
+    }
+}
+p{
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 5px;
+}

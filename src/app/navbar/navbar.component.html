@@ -1,0 +1,64 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">   <!-- -->
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" routerLinkActive="active current">
+            <a class="nav-link" routerLink="" >
+              <i class="fa fa-fw fa-home"></i>  
+              Home<span class="sr-only">(current)</span> </a>
+          </li> 
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="about" >
+                    <!--<i class="fa fa-building" aria-hidden="true"></i>-->  
+                    <i class="fa fa-industry"></i>
+                About</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="projects" >
+               <!-- <i class="fas fa-project-diagram"></i> 
+                <i class="fa fa-cog fa-spin fa-fw"></i> -->
+                <i class="fa fa-bar-chart"></i>
+                Projects</a>
+            </li>
+          
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="services" >
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>  
+                Services</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="team" >
+                <i class="fa fa-users" aria-hidden="true"></i>  
+                Team</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="career" >
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>  
+                Career</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="contact" >
+                <i class="fa fa-fw fa-envelope"></i>  
+                Contact</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active current">
+              <a class="nav-link" routerLink="login" >
+                <i class="fa fa-fw fa-user"></i>  
+                Login</a>
+            </li>
+        </ul>
+    </div>
+   <!-- <div>
+            <a class="" href="#"> Home</a> 
+            <a class="" href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+            <a class="" href="#"> Contact</a> 
+            <a class="" href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    </div>-->
+</nav>
+    

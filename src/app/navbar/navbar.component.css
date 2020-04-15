@@ -1,0 +1,30 @@
+/*
+nav.navbar{
+background-color: #000;/*rgb(110, 241, 116);
+color: #fff;
+margin: auto;
+}
+
+nav.navbar ul{
+    margin: auto;
+}
+
+nav.navbar ul li.navitem a{
+    color: #fff;
+    font-weight: 400;
+}
+
+nav.navbar ul li.nav-item a{
+    border:1px solid #666;
+    border-radius:10px;
+    margin:5px;
+    padding: auto;
+}
+nav.navbar ul li.nav-item a:hover{
+    background-color: blueviolet;
+}
+nav.navbar ul li.nav-item a:active{
+    background-color: brown;
+}
+
+*/

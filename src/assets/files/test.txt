@@ -1,0 +1,15 @@
+id:R&R Colony, Dhenkanal, OTPC, Bhubaneswar.
+id:Residential and Commercial Development at Jagannath Prasad, Bhubaneswar.
+id:(for Odihsa State Housing Board. Competition Project Rank - 1st.)
+id:Residential and Commercial Development at Patrapada, Bhubaneswar.
+id:(for Odisha State Housing Board. Competition Project Rank - 1st.)
+id:Preparation of Master Plan of TRL Township, Belpahar, Odisha.
+id:Residential Housing Apartment for HDF Co-operative Ltd., Cuttack.
+id:Group Housing Residential Apartment, Bargarh . Block- I, II, III, IV, V.
+id:Preparation of Tourism Master Plan at Talasari for OTDC Bhubaneswar.
+id:R & R Colony, Lanjigarh, Kalahandi for Sterillite Industries Ltd.
+id:(Vedanta Alumina Ltd.)
+id:R & R Colony at Jharsuguda for Vedanta Alumina Ltd.
+id:R & R Colony Project for Vedanta University, Puri.
+id:Preparation of DPR for IHSDP and UIDSSMT Scheme, Bargarh.
+id:Ashok Nivas Hirakud Dam, Burla for OTDC.
