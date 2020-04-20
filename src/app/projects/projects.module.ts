@@ -9,7 +9,12 @@ import { LandscapeComponent } from './landscape/landscape.component';
 
 
 @NgModule({
-  declarations: [HousingComponent, InstitutionalComponent, CommercialComponent, LandscapeComponent],
+  declarations: [
+    HousingComponent, 
+    InstitutionalComponent, 
+    CommercialComponent, 
+    LandscapeComponent
+  ],
   imports: [
     CommonModule,
     ProjectsRoutingModule

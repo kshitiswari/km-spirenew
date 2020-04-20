@@ -31,13 +31,21 @@
     </li>
   </ul>
 </div>
-<div class="Contents">
+<div class="contents">
   <div [ngSwitch]='viewmode'>
     <div *ngSwitchCase="'housing'">
       <h6 class="h">Housing Projects</h6>
-      <pre>
-      {{ txt }}
-      </pre>
+      <div class="projlist">
+        <ul>
+          <li *ngFor="let lines of file1">
+           {{ lines }}
+          </li>
+        </ul>
+      </div>
+      <div class="imglist">
+<housing></housing>
+
+      </div>
      
     </div>
     <div *ngSwitchCase="'inst'">

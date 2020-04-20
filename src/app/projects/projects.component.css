@@ -9,11 +9,10 @@ div.container-fluid.proj{
 }
 
 .sidenav{
-  width: 200px;
+  width:150px;
   height:400px;
   box-sizing: border-box;
   float: left;
-  overflow: hidden;
   background-color: #555;
   color: #ccc;
   border-right: 1px solid #ccc;
@@ -27,28 +26,27 @@ ul.nav.nav-tabs{
   height:100%;
 }
 
-ul.nav.nav-tabs li.nav-item a.nav-link:active{
+/* ul.nav.nav-tabs li.nav-item a.nav-link:active{
   background-color: #ccc;
   color: #000;
   font-weight: 800;
-}
+} */
 
 .contents{
-  height:auto;
-  /* float: left; */
-  margin-left:20px;
-  padding-left: 30px;
+  height:100%;
   box-sizing: border-box;
+  float: left; 
+  background-color:#ddd;
+  margin:10px;
+  
 }
 
 div.contents h6{
   box-sizing: border-box;
-  padding-left:20px;
-  border: 1px solid #222;
+  padding:10px;
 }
-h6.h,p{
-  padding-left:220px;
-  color:darkgoldenrod;
-  /* border: 1px solid #222; */
-  background-color: aliceblue;
+
+.projlist, .imglist{
+  float: left;
+  padding: 10px;
 }
