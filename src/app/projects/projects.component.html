@@ -24,9 +24,9 @@
     </li>
     <li class="nav-item">
       <a class="nav-link"
-         [class.active]="viewmode=='land'"
-         (click)="viewmode='land'">
-        Landscape
+         [class.active]="viewmode=='inte'"
+         (click)="viewmode='inte'">
+        Interior
         </a>
     </li>
   </ul>
@@ -43,19 +43,172 @@
         </ul>
       </div>
       <div class="imglist">
-<housing></housing>
+<!-- <housing></housing> -->
+<div id="housing" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/projects/housing/h001.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h002.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h003.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h004.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h005.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h006.jpg" width="400" height="260">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/projects/housing/h007.jpg" width="400" height="260">
+    </div>
+  </div>
+  
+  <!-- Left and right controls
+  <a class="carousel-control-prev" href="#housing" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#housing" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a> -->
+</div>
 
       </div>
      
     </div>
     <div *ngSwitchCase="'inst'">
       <h6>Institutional Projects</h6>
+      <div class="projlist">
+        <ul>
+          <li *ngFor="let lines of file2">
+           {{ lines }}
+          </li>
+        </ul>
+      </div>
+      <div class="imglist">
+        <!-- <housing></housing> -->
+        <div id="institutional" class="carousel slide carousel-fade" data-ride="carousel">
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/projects/institutional/ins001.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins002.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins003.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins004.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins005.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins006.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/institutional/ins007.jpg" width="400" height="260">
+            </div>
+          </div>
+     
+        </div>
+        
+     </div>
+             
     </div>
     <div *ngSwitchCase="'comm'">
       <h6>Commercial Projects</h6>
+      <div class="projlist">
+        <ul>
+          <li *ngFor="let lines of file3">
+           {{ lines }}
+          </li>
+        </ul>
+      </div>
+      <div class="imglist">
+        <!-- <housing></housing> -->
+        <div id="commercial" class="carousel slide carousel-fade" data-ride="carousel">
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/projects/commercial/com001.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com002.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com003.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com004.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com005.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com006.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/commercial/com007.jpg" width="400" height="260">
+            </div>
+          </div>
+     
+        </div>
+        
+     </div>
+      
+
     </div>
-    <div *ngSwitchCase="'land'">
-      <h6>Landscape Projects</h6>
+    <div *ngSwitchCase="'inte'">
+      <h6>Interior Projects</h6>
+      <div class="projlist">
+        <ul>
+          <li *ngFor="let lines of file4">
+           {{ lines }}
+          </li>
+        </ul>
+      </div>
+      <div class="imglist">
+        <!-- <housing></housing> -->
+        <div id="interior" class="carousel slide carousel-fade" data-ride="carousel">
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/projects/interior/int001.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int002.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int003.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int004.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int005.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int006.jpg" width="400" height="260">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/projects/interior/int007.jpg" width="400" height="260">
+            </div>
+          </div>
+     
+        </div>
+        
+     </div>
+     
+
     </div>
     <div *ngSwitchDefault>
       Default Contents

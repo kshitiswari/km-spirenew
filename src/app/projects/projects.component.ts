@@ -11,27 +11,57 @@ import { Observable } from 'rxjs';
 export class ProjectsComponent implements OnInit{
 
   viewmode:string='housing';
-  url="./assets/files/test.txt";
+  url1="./assets/files/housing.txt";
+  url2="./assets/files/institutional.txt";
+  url3="./assets/files/commercial.txt";
+  url4="./assets/files/interior.txt";
+
+  
   txt:any;
   file1:any[]=[];
+  file2:any[]=[];
+  file3:any[]=[];
+  file4:any[]=[];
   line:any;
   constructor(private http:HttpClient){ }
 
   ngOnInit(){
-     this.http.get(this.url,{responseType:'text'})
+  
+     this.http.get(this.url1,{responseType:'text'})
           .subscribe(response =>{
             this.txt=response;
-            //console.log(this.txt);
             for (const line of this.txt.split(/[\r\n]+/)) {
               this.line=line;
               this.file1.push(this.line);
-              //console.log(line);
-
-              //this.file1.push(line);
             }
-            //console.log(typeof(this.line));
-            //console.log(this.file1);
           }); 
+
+          this.http.get(this.url2,{responseType:'text'})
+          .subscribe(response =>{
+            this.txt=response;
+            for (const line of this.txt.split(/[\r\n]+/)) {
+              this.line=line;
+              this.file2.push(this.line);
+            }
+          }); 
+          this.http.get(this.url3,{responseType:'text'})
+          .subscribe(response =>{
+            this.txt=response;
+            for (const line of this.txt.split(/[\r\n]+/)) {
+              this.line=line;
+              this.file3.push(this.line);
+            }
+          }); 
+
+          this.http.get(this.url4,{responseType:'text'})
+          .subscribe(response =>{
+            this.txt=response;
+            for (const line of this.txt.split(/[\r\n]+/)) {
+              this.line=line;
+              this.file4.push(this.line);
+            }
+          });
+        
          
           
   }
